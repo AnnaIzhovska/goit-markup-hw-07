@@ -1,0 +1,53 @@
+.feature {
+    display: flex;
+    flex-wrap: nowrap;
+
+    &> .item{
+        flex-basis: calc(100%-60px) /4);
+        margin-right: 30px;
+    
+    &:nth-child(4){
+        margin-right: 0;}}
+
+    .item:before{
+        content: "";
+        margin-bottom: 30px;
+        display:block;
+        height: 120px;
+        background-repeat: no-repeat;
+        
+        background-position: center;
+        background-color: #F5F4FA;
+        border-radius: 4px;}
+
+    .antena::before{
+        background-image: url(../images/advantages/antenna\ 1.svg);}
+            
+    .clock::before{
+        background-image: url(../images/advantages/clock\ 1.svg);}
+            
+    .diagram::before{
+        background-image: url(../images/advantages/diagram\ 1.svg);}
+            
+    .austrounaut::before{
+        background-image: url(../images/advantages/astronaut\ 1.svg);}
+             
+    .title{
+        color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 0;}
+
+    .text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        margin-top: 0;
+        margin-bottom: 0;}
+        
+}

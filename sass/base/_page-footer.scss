@@ -1,0 +1,23 @@
+.footer{
+    margin: 0 auto;
+    background-color: #2F303A;
+    padding:60px 0;
+    display: flex;
+
+    .logo-studio{
+        color: var(--primary-white-color);
+        margin-right: 0;}
+
+    .container{
+        display: flex;
+        align-items: baseline;}
+    
+    .link-social:hover,
+    .link-social:focus{
+        background-color: var(--accent-color);}
+        
+    .icon{
+        fill:var(--primary-white-color);
+        width: 20px;
+        height: 20px;}
+}

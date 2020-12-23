@@ -1,0 +1,14 @@
+.join{
+    &-list{
+        display: flex;
+        margin-top: 20px;
+        padding: 0;
+        margin: 0;}
+    &-social:last-child{
+            margin-right: 0;}
+    &-item{
+            margin-right: 10px;
+        &:last-child{
+            margin-right: 0;}
+    }
+}
