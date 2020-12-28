@@ -24,10 +24,8 @@
     color: #757575;
     transition-property:color;
     transition-duration: 250ms;
-    transition-timing-function: (--timing-fuction);}
+    transition-timing-function: (--timing-fuction);
 
-.container > .contacts .link:hover,
-.container > .contacts .link:focus{
+&:hover,&focus{
     fill: var(--accent-color);
-    color: var(--accent-color);
-} 
+    color: var(--accent-color);}}
