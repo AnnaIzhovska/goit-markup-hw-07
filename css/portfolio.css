@@ -45,13 +45,13 @@ img {
   transition-property: color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
-  -webkit-transition-timing-function: var(--timing-fuction);
-          transition-timing-function: var(--timing-fuction);
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container > .contacts .link:hover, .container > .contacts .link:focus {
-  fill: var(--accent-color);
-  color: var(--accent-color);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .container-join {
@@ -60,7 +60,7 @@ img {
 }
 
 .container-join .title {
-  color: var(--primary-white-color);
+  color: #ffffff;
   margin: 0;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -75,7 +75,7 @@ img {
 }
 
 .container-subscribe .title {
-  color: var(--primary-white-color);
+  color: #212121;
   margin: 0;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -127,7 +127,7 @@ img {
 
 .container-modal .accept .link {
   text-decoration-skip-ink: none;
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .container-form {

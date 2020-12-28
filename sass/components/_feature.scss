@@ -3,7 +3,7 @@
     flex-wrap: nowrap;
 
     &> .item{
-        flex-basis: calc(100%-60px) /4);
+        flex-basis: calc(100%-60px) /4;
         margin-right: 30px;
     
     &:nth-child(4){
@@ -19,19 +19,7 @@
         background-position: center;
         background-color: #F5F4FA;
         border-radius: 4px;}
-
-    .antena::before{
-        background-image: url(../images/advantages/antenna\ 1.svg);}
-            
-    .clock::before{
-        background-image: url(../images/advantages/clock\ 1.svg);}
-            
-    .diagram::before{
-        background-image: url(../images/advantages/diagram\ 1.svg);}
-            
-    .austrounaut::before{
-        background-image: url(../images/advantages/astronaut\ 1.svg);}
-             
+       
     .title{
         color: var(--title-text-color);
         font-weight: 700;
@@ -51,3 +39,15 @@
         margin-bottom: 0;}
         
 }
+
+.antena::before{
+    background-image: url("../images/advantages/antenna\ 1.svg");}
+        
+.clock::before{
+    background-image: url("../images/advantages/clock\ 1.svg");}
+        
+.diagram::before{
+    background-image: url("../images/advantages/diagram\ 1.svg");}
+        
+.austrounaut::before{
+    background-image: url("../images/advantages/astronaut\ 1.svg");}

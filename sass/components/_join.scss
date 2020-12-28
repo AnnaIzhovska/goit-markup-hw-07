@@ -9,6 +9,17 @@
     &-item{
             margin-right: 10px;
         &:last-child{
-            margin-right: 0;}
-    }
+            margin-right: 0;}}
 }
+
+.container{
+    &-join{
+    display: block;
+    margin-right: 93px;
+    .title{
+        color: var(--primary-white-color);
+        margin: 0;
+        margin-bottom: 20px;
+        text-transform: uppercase;} 
+    .join-item{
+            display: block;}}}

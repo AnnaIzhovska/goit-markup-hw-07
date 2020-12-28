@@ -1,7 +1,6 @@
 .contacts {
     align-items: center;
     margin-left: auto;
-
     .link{
         color: var(--primaty-text-color);
         text-decoration: none;
@@ -16,12 +15,19 @@
     
         transition-property: color;
         transition-duration: 250ms;
-        transition-timing-function: var(--timing-fuction);
-    
-    }
-    
+        transition-timing-function: var(--timing-fuction);}
     .number{
-        margin-right:0;
-    }
+        margin-right:0;}}
 
-}
+.container >.contacts .link{
+    fill: currentColor;
+    color: #757575;
+    transition-property:color;
+    transition-duration: 250ms;
+    transition-timing-function: (--timing-fuction);}
+
+.container > .contacts .link:hover,
+.container > .contacts .link:focus{
+    fill: var(--accent-color);
+    color: var(--accent-color);
+} 
