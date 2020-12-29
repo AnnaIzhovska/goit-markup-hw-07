@@ -39,15 +39,14 @@
         margin-bottom: 0;}
         
 }
-
-.antena::before{
-    background-image: url("../images/advantages/antenna\ 1.svg");}
+.antenna::before{
+    background-image: url(/sass/images/antenna.svg);}
         
 .clock::before{
-    background-image: url("../images/advantages/clock\ 1.svg");}
+    background-image: url(/sass/images/clock.svg);}
         
 .diagram::before{
-    background-image: url("../images/advantages/diagram\ 1.svg");}
+    background-image: url(/sass/images/diagram.svg);}
         
-.austrounaut::before{
-    background-image: url("../images/advantages/astronaut\ 1.svg");}
+.austronaut::before{
+    background-image: url(/sass/images/astronaut.svg);}
